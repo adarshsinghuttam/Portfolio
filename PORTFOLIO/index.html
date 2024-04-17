@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfo;io</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: whitesmoke;
+            color: rgb(27, 2, 2);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(120, 120, 216);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(49, 152, 243);
+            font-size: 1.1rem;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .FirstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 50px 0;
+        }
+
+        .FirstSection>div {
+            width: 35%;
+        }
+
+        .LeftSection {
+            font-size: 3rem;
+            margin: 80px 0;
+        }
+
+        .RightSection img {
+            width: 80%;
+            margin: 40px 0;
+        }
+
+        .purple {
+            color: rgb(129, 7, 244);
+        }
+
+        .SecondSection {
+            max-width: 80vh;
+            margin: auto;
+            list-style: none;
+        }
+
+        h1 li a {
+            background: black;
+            color: white;
+            text-decoration: none;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">ADARSH'S PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="SKIL.html">SKIL</a></li>
+                    <li><a href="EXPERIENCE.html">EXPERIENCE</a></li>
+                    <li><a href="PROJECT.html">PROJECT</a></li>
+                    <li><a href="CONTACT ME.html">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="FirstSection">
+            <div class="LeftSection">
+                HELLO, My Name is <span class="purple"> ADARSH SINGH</span>
+                <div>and I am a Passionate Web Developer</div>
+            </div>
+            <div class="RightSection">
+                <img src="https://www.pngitem.com/pimgs/m/112-1127587_software-hire-developers-hd-png-download.png"
+                    alt="">
+            </div>
+        </section>
+        <section class="SecondSection">
+            <h1>
+                <li><a href="cv.pdf">DOWNLOAD CV</a></li>
+            </h1>
+        </section>
+    </main>
+</body>
+
+</html>
